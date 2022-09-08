@@ -1,5 +1,13 @@
-Please replace the contents of this file with relevant instructions for your repository or remove this file entirely.
+# Format for output files
 
-This directory would generally contain results of simulations or real data analyses. Also, intermediate output files might be placed here, cached to avoid having to rerun computationally-intensive steps of the workflow. 
+There are two types of simulations: (i) an extensive simulation involving four kinds of processes, (ii) a focused simulation of a Gaussian ARMA process with local quadratic, constant, and quartic estimators.
+
+## Extensive simulation
+
+There are 4 zip files containing output files for each type of process.
+1. GaussianSims contains output files for Gaussian ARMA processes.
+2. LaplaceSims contains output files for Laplace ARMA processes.
+3. StudentSims contains output files for Student ARMA processes.
+4. NonlinearSims contains output files for order 2 polynomial processes.
 
 
